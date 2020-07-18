@@ -1,3 +1,18 @@
+.header {
+  width: 80%;
+tablet()
+mobile()
+}
+.container .main-inner {
+  width: 80%;
+tablet()
+mobile()
+}
+.content-wrap {
+  width: calc(100% - 260px);
+tablet()
+mobile()
+}
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -445,7 +460,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 1100px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
@@ -457,7 +472,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 1100px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -474,7 +489,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 1100px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -1817,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff00f4;
+  background: #d752e5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2619,7 +2634,7 @@ pre .javascript .function {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 1400px;
+  width: 960px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2679,7 +2694,7 @@ pre .javascript .function {
   }
 }
 .container .main-inner {
-  width: 1400px;
+  width: 960px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2695,7 +2710,7 @@ pre .javascript .function {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 1100px;
+  width: 700px;
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
@@ -2738,7 +2753,7 @@ pre .javascript .function {
   display: none;
 }
 .footer-inner {
-  width: 1400px;
+  width: 960px;
   padding-left: 260px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3009,5 +3024,44 @@ pre .javascript .function {
 @media (max-width: 767px) {
   .post-body {
     text-align: justify;
+  }
+}
+.header {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    width: 100%;
+  }
+}
+.container .main-inner {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .main-inner {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .container .main-inner {
+    width: 100%;
+  }
+}
+.content-wrap {
+  width: calc(100% - 260px);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-wrap {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .content-wrap {
+    width: 100%;
   }
 }

@@ -1,3 +1,28 @@
-$main-desktop = 1400px
-$content-desktop = 1100px
+.header{
+    width: 80%;
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
+.container .main-inner {
+    width: 80%;
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
+.content-wrap {
+    width: calc(100% - 260px);
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
 
